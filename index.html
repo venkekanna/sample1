@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ShopNow - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">ShopNow</a>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+      <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="py-5 text-center bg-secondary text-white">
+  <div class="container">
+    <h1>ShopNow — Minimal E-commerce Template</h1>
+    <p class="lead">Practice deploying this template with Jenkins.</p>
+  </div>
+</header>
+
+<section class="container my-5">
+  <div class="row">
+    <div class="col-md-8">
+      <img src="assets/images/hero-banner.png" alt="Hero" class="img-fluid rounded">
+    </div>
+    <div class="col-md-4">
+      <h3>Featured</h3>
+      <p>Simple, responsive product grid with Bootstrap.</p>
+      <a href="products.html" class="btn btn-primary">Browse Products</a>
+    </div>
+  </div>
+</section>
+
+<section class="container mb-5">
+  <h2>Popular Products</h2>
+  <div class="row" id="product-list">
+    <!-- JS will populate -->
+  </div>
+</section>
+
+<footer class="bg-light py-4">
+  <div class="container text-center">
+    &copy; 2025 ShopNow
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
